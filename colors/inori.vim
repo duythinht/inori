@@ -17,19 +17,19 @@ function! s:translate_color(number)
     return '#c32c2c' " Normal Red
   endif
   if color_number == 2
-    return '#647f2f' " Normal Green
+    return '#55a249' " Normal Green
   endif
   if color_number == 3
-    return '#c8953d' " Normal Yellow
+    return '#be7d16' " Normal Yellow
   endif
   if color_number == 4
-    return '#5a84a1' " Normal Blue
+    return '#2166b4' " Normal Blue
   endif
   if color_number == 5
-    return '#c85bb5' " Normal Magenta
+    return '#b150a0' " Normal Magenta
   endif
   if color_number == 6
-    return '#16826e' " Normal Cyan
+    return '#54a19f' " Normal Cyan
   endif
   if color_number == 7
     return '#aaa5a4' " Normal White
@@ -38,19 +38,19 @@ function! s:translate_color(number)
     return '#606060' " Bright Black
   endif
   if color_number == 9
-    return '#b66326' " Bright Red
+    return '#c97174' " Bright Red
   endif
   if color_number == 10
-    return '#569e4c' " Bright Green
+    return '#49863e' " Bright Green
   endif
   if color_number == 11
-    return '#987414' " Bright Yellow
+    return '#fccd9e' " Bright Yellow
   endif
   if color_number == 12
     return '#7baed5' " Bright Blue
   endif
   if color_number == 13
-    return '#292929' " Bright Magenta
+    return '#d761c2' " Bright Magenta
   endif
   if color_number == 14
     return '#83d9cf' " Bright Cyan
