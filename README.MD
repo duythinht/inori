@@ -1,4 +1,4 @@
-## The coffee colors scheme for vim
+## The Inori colors scheme for vim
 
 ## Install using Pathogen:
 
@@ -15,4 +15,4 @@
 	colorscheme coffee
 
 Previews:
-![Vim Inori](https://dl.dropboxusercontent.com/u/5933214/Screen%20Shot%202014-09-15%20at%2012.33.17%20AM.png)
+![Vim Inori](https://raw.githubusercontent.com/duythinht/inori/master/image/Screen%20Shot%202014-09-22%20at%209.03.29%20PM.png)
