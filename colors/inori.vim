@@ -119,8 +119,8 @@ call s:highlight("Comment", 8, "NONE", "NONE")
 call s:highlight("String", 2, "NONE", "NONE")
 call s:highlight("Number", 2, "NONE", "NONE")
 
-call s:highlight("Keyword", 11, "NONE", "NONE")
-call s:highlight("Statement", 11, "NONE", "NONE")
+call s:highlight("Keyword", 3, "NONE", "NONE")
+call s:highlight("Statement", 3, "NONE", "NONE")
 call s:highlight("PreProc", 3, "NONE", "NONE")
 call s:highlight("PreCondit", 11, "NONE", "NONE")
 
@@ -134,7 +134,7 @@ call s:highlight("Type", 6, "NONE", "NONE")
 
 call s:highlight("Special", 6, "NONE", "NONE")
 call s:highlight("Delimiter", 7, "NONE", "NONE")
-call s:highlight("Operator", 9, "NONE", "NONE")
+call s:highlight("Operator", 4, "NONE", "NONE")
 
 call s:highlight("Blue", 4, "NONE", "NONE")
 call s:highlight("Green", 2, "NONE", "NONE")
