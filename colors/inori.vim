@@ -116,11 +116,11 @@ endif
 
 " Syntax highlighting
 call s:highlight("Comment", 8, "NONE", "NONE")
-call s:highlight("String", 9, "NONE", "NONE")
+call s:highlight("String", 2, "NONE", "NONE")
 call s:highlight("Number", 2, "NONE", "NONE")
 
-call s:highlight("Keyword", 2, "NONE", "NONE")
-call s:highlight("Statement", 2, "NONE", "NONE")
+call s:highlight("Keyword", 11, "NONE", "NONE")
+call s:highlight("Statement", 11, "NONE", "NONE")
 call s:highlight("PreProc", 3, "NONE", "NONE")
 call s:highlight("PreCondit", 11, "NONE", "NONE")
 
