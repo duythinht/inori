@@ -11,25 +11,25 @@ let colors_name = "inori"
 function! s:translate_color(number)
   let color_number = a:number
   if color_number == 0
-    return '#282828' " Normal Black
+    return '#2b2b2b' " Normal Black
   endif
   if color_number == 1
-    return '#c32c2c' " Normal Red
+    return '#af0008' " Normal Red
   endif
   if color_number == 2
-    return '#55a249' " Normal Green
+    return '#668658' " Normal Green
   endif
   if color_number == 3
-    return '#be7d16' " Normal Yellow
+    return '#c67832' " Normal Yellow
   endif
   if color_number == 4
-    return '#2166b4' " Normal Blue
+    return '#008cba' " Normal Blue
   endif
   if color_number == 5
-    return '#b150a0' " Normal Magenta
+    return '#9876aa' " Normal Magenta
   endif
   if color_number == 6
-    return '#54a19f' " Normal Cyan
+    return '#4fa19f' " Normal Cyan
   endif
   if color_number == 7
     return '#aaa5a4' " Normal White
@@ -38,22 +38,22 @@ function! s:translate_color(number)
     return '#606060' " Bright Black
   endif
   if color_number == 9
-    return '#c97174' " Bright Red
+    return '#dd1c2a' " Bright Red
   endif
   if color_number == 10
-    return '#49863e' " Bright Green
+    return '#3fa810' " Bright Green
   endif
   if color_number == 11
-    return '#fccd9e' " Bright Yellow
+    return '#fda509' " Bright Yellow
   endif
   if color_number == 12
-    return '#7baed5' " Bright Blue
+    return '#79add3' " Bright Blue
   endif
   if color_number == 13
-    return '#d761c2' " Bright Magenta
+    return '#db60bf' " Bright Magenta
   endif
   if color_number == 14
-    return '#83d9cf' " Bright Cyan
+    return '#7ed9cf' " Bright Cyan
   endif
   if color_number == 15
     return '#ffffff' " Bright White
@@ -105,7 +105,7 @@ if version >= 700 " Vim 7.x specific colors
   call s:highlight("TabLine", 8, "NONE", "NONE")
   call s:highlight("TabLineFill", "NONE", "NONE", "NONE")
   call s:highlight("TabLineSel", "NONE", "NONE", "BOLD")
-  call s:highlight("MatchParen", 0, 6, "NONE")
+  call s:highlight("MatchParen", 4, "NONE", "NONE")
   call s:highlight("Pmenu", 0, 8, "NONE")
   call s:highlight("PmenuSel", 0, 7, "NONE")
   call s:highlight("Search", 10, 2, "underline")
@@ -128,13 +128,13 @@ call s:highlight("Todo", 5, "NONE", "bold")
 call s:highlight("Constant", 4, "NONE", "NONE")
 
 call s:highlight("Identifier", 4, "NONE", "NONE")
-call s:highlight("Function", 3, "NONE", "NONE")
+call s:highlight("Function", 11, "NONE", "NONE")
 call s:highlight("Class", 15, "NONE", "bold")
-call s:highlight("Type", 6, "NONE", "NONE")
+call s:highlight("Type", 3, "NONE", "NONE")
 
-call s:highlight("Special", 6, "NONE", "NONE")
+call s:highlight("Special", 7, "NONE", "NONE")
 call s:highlight("Delimiter", 7, "NONE", "NONE")
-call s:highlight("Operator", 4, "NONE", "NONE")
+call s:highlight("Operator", 7, "NONE", "NONE")
 
 call s:highlight("Blue", 4, "NONE", "NONE")
 call s:highlight("Green", 2, "NONE", "NONE")
