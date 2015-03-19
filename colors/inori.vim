@@ -36,7 +36,7 @@ call s:set_color("NONE", 235, '#000000')
 
 " colors for syntax hightlight
 
-call s:set_color("ORANGE", 130, '#af5f00')
+call s:set_color("ORANGE", 172, '#d78700')
 
 
 function! s:highlight(group, fg, bg, attr)
@@ -99,7 +99,7 @@ call s:highlight("Comment", "BRIGHT_BLACK", "NONE", "NONE")
 call s:highlight("String", "GREEN", "NONE", "NONE")
 call s:highlight("Number", "GREEN", "NONE", "NONE")
 
-call s:highlight("Keyword", "RED", "NONE", "NONE")
+call s:highlight("Keyword", "ORANGE", "NONE", "NONE")
 call s:highlight("Statement", "ORANGE", "NONE", "NONE")
 call s:highlight("PreProc", "ORANGE", "NONE", "NONE")
 call s:highlight("PreCondit", "BRIGHT_YELLOW", "NONE", "NONE")
