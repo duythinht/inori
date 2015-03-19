@@ -103,6 +103,7 @@ call s:highlight("Keyword", "ORANGE", "NONE", "NONE")
 call s:highlight("Statement", "ORANGE", "NONE", "NONE")
 call s:highlight("PreProc", "ORANGE", "NONE", "NONE")
 call s:highlight("PreCondit", "BRIGHT_YELLOW", "NONE", "NONE")
+call s:highlight("Structure", "BRIGHT_YELLOW", "NONE", "NONE")
 
 call s:highlight("Todo", "MAGENTA", "NONE", "NONE")
 call s:highlight("Constant", "BLUE", "NONE", "NONE")
@@ -138,7 +139,6 @@ hi link Define          PreProc
 hi link Macro           PreProc
 hi link PreCondit       PreProc
 hi link StorageClass    Type
-hi link Structure       Type
 hi link Typedef         Type
 hi link Tag             Special
 hi link SpecialChar     Special
