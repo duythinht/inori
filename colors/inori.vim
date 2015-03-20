@@ -8,10 +8,10 @@ endif
 
 let colors_name = "inori"
 
-let g:colors = {}
+let g:coffee_colors = {}
 
 function! s:set_color(name, num, hex)
-	let g:colors[a:name] = [a:num, a:hex]
+	let g:coffee_colors[a:name] = [a:num, a:hex]
 endfunction
 
 " Noew set color board
@@ -43,8 +43,8 @@ call s:set_color("GREY", 235, "#262626")
 call s:set_color("DARK_MAGENTA", 133, "#af5faf")
 
 function! s:highlight(group, fg, bg, attr)
-	let fg = g:colors[a:fg]
-	let bg = g:colors[a:bg]
+	let fg = g:coffee_colors[a:fg]
+	let bg = g:coffee_colors[a:bg]
 	exec "hi " . a:group . " guifg=" . fg[1]
   exec "hi " . a:group . " ctermfg=" . fg[0]
   exec "hi " . a:group . " guibg=" . bg[1]
