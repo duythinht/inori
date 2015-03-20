@@ -11,6 +11,8 @@ If you use terminal, setup with xterm-256color or something like that
 	# example for using gnome-terminal
 	export TERM=xterm-256color
 
+For better experience, you should set terminal background to #262626 and text color to #c0c0c0
+
 ## Install using Pathogen:
 
 	cd ~/.vim/bundle
