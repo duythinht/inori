@@ -1,4 +1,4 @@
-" coffee color scheme
+" inori color scheme
 set background=dark
 hi clear
 
@@ -8,10 +8,10 @@ endif
 
 let colors_name = "inori"
 
-let g:coffee_colors = {}
+let g:inori_colors = {}
 
 function! s:set_color(name, num, hex)
-	let g:coffee_colors[a:name] = [a:num, a:hex]
+	let g:inori_colors[a:name] = [a:num, a:hex]
 endfunction
 
 " Noew set color board
@@ -43,8 +43,8 @@ call s:set_color("GREY", 235, "#262626")
 call s:set_color("DARK_MAGENTA", 133, "#af5faf")
 
 function! s:highlight(group, fg, bg, attr)
-	let fg = g:coffee_colors[a:fg]
-	let bg = g:coffee_colors[a:bg]
+	let fg = g:inori_colors[a:fg]
+	let bg = g:inori_colors[a:bg]
 	exec "hi " . a:group . " guifg=" . fg[1]
   exec "hi " . a:group . " ctermfg=" . fg[0]
   exec "hi " . a:group . " guibg=" . bg[1]
@@ -164,9 +164,9 @@ hi link phpType         Red
 hi link phpRepeat       Orange
 
 "" Special for Coffeescript
-hi link coffeeAssignSymbols White
-hi link coffeeSpecialVar    Purple
-hi link coffeeObjAssign     Gold
+hi link inoriAssignSymbols White
+hi link inoriSpecialVar    Purple
+hi link inoriObjAssign     Gold
 
 "" Special for Javascript
 "hi link javaScriptNumber         Number
