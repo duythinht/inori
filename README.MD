@@ -1,5 +1,9 @@
 ## The Inori colors scheme for vim
 
+This colorscheme based on 256colors-terminal, working perfectly on gnome-terminal, iterm, tmux, screen-256colors...
+**You don't need to import terminal's colors pallete**
+Help me improve it (please take a screen shot for bug or something you want change): https://github.com/duythinht/inori/issues
+
 ## Install using Pathogen:
 
 	cd ~/.vim/bundle
@@ -7,12 +11,12 @@
 
 ## Install using Vundle
 
-	Plugin 'duythinht/vim-coffee'
+	Plugin 'duythinht/inori'
 
 ## Modify .vimrc
 
 	syntax enable
-	colorscheme coffee
+	silent! colorscheme inori
 
 Previews:
-![Vim Inori](https://raw.githubusercontent.com/duythinht/inori/master/image/Screen%20Shot%202014-09-22%20at%209.03.29%20PM.png)
+![Vim Inori](https://raw.githubusercontent.com/duythinht/inori/master/image/preview.png)
