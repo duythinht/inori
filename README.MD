@@ -1,7 +1,9 @@
 ## The Inori colors scheme for vim
 
 This colorscheme based on 256colors-terminal, working perfectly on gnome-terminal, iterm, tmux, screen-256colors...
+
 **You don't need to import terminal's colors pallete**
+
 Help me improve it (please take a screen shot for bug or something you want change): https://github.com/duythinht/inori/issues
 
 ## Install using Pathogen:
@@ -19,4 +21,5 @@ Help me improve it (please take a screen shot for bug or something you want chan
 	silent! colorscheme inori
 
 Previews:
+
 ![Vim Inori](https://raw.githubusercontent.com/duythinht/inori/master/image/preview.png)
