@@ -153,7 +153,7 @@ hi link htmlTagName        Gold
 hi link htmlSpecialTagName Gold
 hi link htmlTag            Gold
 hi link htmlEndTag         Gold
-hi link htmlArg            Blue
+hi link htmlArg            Orange
 hi link htmlLink           Normal
 hi link javaScript         Normal
 
@@ -186,7 +186,7 @@ hi link inoriObjAssign     Gold
 "" Sepcial for CSS
 hi link cssType                 Green
 hi link cssIdentifier           Gold
-hi link cssClassName            Blue
+hi link cssClassName            Orange
 hi link cssTagName              Orange
 hi link cssBraces               Normal
 hi link cssColor                DarkGreen
