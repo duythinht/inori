@@ -111,9 +111,9 @@ call s:highlight("Structure", "DARK_MAGENTA", "NONE", "NONE")
 call s:highlight("Todo", "DARK_MAGENTA", "NONE", "NONE")
 call s:highlight("Constant", "CYAN", "NONE", "NONE")
 
-call s:highlight("Identifier", "WHITE", "NONE", "NONE")
-call s:highlight("Function", "WHITE", "NONE", "NONE")
-call s:highlight("Class", "WHITE", "NONE", "NONE")
+call s:highlight("Identifier", "BRIGHT_RED", "NONE", "NONE")
+call s:highlight("Function", "BRIGHT_RED", "NONE", "NONE")
+call s:highlight("Class", "BRIGHT_RED", "NONE", "NONE")
 call s:highlight("Type", "DARK_ORANGE", "NONE", "NONE")
 
 call s:highlight("Special", "WHITE", "NONE", "NONE")
@@ -164,9 +164,10 @@ hi link phpType         Red
 hi link phpRepeat       Orange
 
 "" Special for Coffeescript
-hi link inoriAssignSymbols White
-hi link inoriSpecialVar    Purple
-hi link inoriObjAssign     Gold
+"hi link inoriAssignSymbols White
+"hi link inoriSpecialVar    Purple
+"hi link inoriObjAssign     Gold
+hi link coffeeParens Gold
 
 "" Special for Javascript
 "hi link javaScriptNumber         Number
