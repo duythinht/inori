@@ -91,7 +91,7 @@ if version >= 700 " Vim 7.x specific colors
   call s:highlight("MatchParen", "CYAN", "NONE", "NONE")
   call s:highlight("Pmenu", "GREY", "BRIGHT_BLACK", "NONE")
   call s:highlight("PmenuSel", "GREY", "WHITE", "NONE")
-  call s:highlight("Search", "NONE", "BRIGHT_BLACK", "NONE")
+  call s:highlight("Search", "NONE", "DARK_SEA_GREEN", "NONE")
   call s:highlight("NERDTreeExecFile", "WHITE", "GREY", "NONE")
   call s:highlight("NERDTreeClosable", "WHITE", "GREY", "NONE")
   call s:highlight("NERDTreeOpenable", "WHITE", "GREY", "NONE")
