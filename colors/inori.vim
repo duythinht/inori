@@ -58,6 +58,7 @@ endfunction
 call s:highlight("Normal", "WHITE", "NONE", "NONE")
 call s:highlight("NonText", "BRIGHT_BLACK", "NONE", "NONE")
 call s:highlight("SpecialKey", "NONE", "BRIGHT_BLACK", "NONE")
+call s:highlight("SignColumn", "NONE", "NONE", "NONE")
 
 "call s:highlight("Cursor", "GREY", "WHITE", "reverse")
 call s:highlight("LineNr", "BRIGHT_BLACK", "NONE", "NONE")
