@@ -131,6 +131,12 @@ call s:highlight("WHITE", "BRIGHT_WHITE", "NONE", "NONE")
 call s:highlight("Gold", "ORANGE", "NONE", "NONE")
 call s:highlight("Purple", "DARK_MAGENTA", "NONE", "NONE")
 
+"" For vim diff
+call s:highlight("Diffchange", "WHITE", "DARK_ORANGE", "NONE")
+call s:highlight("Difftext", "WHITE", "DARK_ORANGE", "NONE")
+call s:highlight("Diffadd", "WHITE", "DARK_SEA_GREEN", "NONE")
+call s:highlight("Diffdelete", "WHITE", "BRIGHT_BLACK", "NONE")
+
 hi link Character       Constant
 hi link Conditional     Keyword
 hi link Boolean         Constant
